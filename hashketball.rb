@@ -1,4 +1,5 @@
 # Write your code below game_hash
+require "pry"
 def game_hash
   {
     home: {
@@ -160,4 +161,5 @@ def team_names
 end
 
 def player_numbers (team_name)
+  
 end
