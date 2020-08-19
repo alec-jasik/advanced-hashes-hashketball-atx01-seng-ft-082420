@@ -164,4 +164,14 @@ def player_numbers (input)
   numbers_array = []
   game_hash.each do |team, team_info|
     if team_info[:team_name] == input 
+      team_info.each do |key, value|
+        if key == :players
+          value.each do |player|
+          numbers_array.push(player[:number])
+          end
+        end
+      end
+    end
+  end 
+  return numbers_array
 end
