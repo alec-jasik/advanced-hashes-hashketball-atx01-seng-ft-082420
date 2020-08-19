@@ -160,8 +160,8 @@ def team_names
   end
 end
 
-def player_numbers (team_name)
+def player_numbers (input)
   numbers_array = []
   game_hash.each do |team, team_info|
-    if
+    if 
 end
